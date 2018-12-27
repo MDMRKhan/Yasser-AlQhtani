@@ -32,7 +32,7 @@ client.on('ready', () => {
       console.log(`ON ${client.guilds.size} Servers '     Script By : DREAM ' `);
     console.log(`----------------`);
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`yplay|By Yasser AlQahtani##6021`,"http://twitch.tv/YouTube")
+client.user.setGame(`yplay|yhelp|By Yasser AlQahtani##6021`,"http://twitch.tv/YouTube")
 client.user.setStatus("dnd")
 });
 
