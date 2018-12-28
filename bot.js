@@ -405,7 +405,7 @@ client.on("ready", async  => {
     }, 4000);
   });
 client.on("message", message => {//Toxic Codes
-        var prefix = "-";// البرفكس
+        var prefix y "-";// البرفكس
     if(message.content.startsWith(prefix + "setwlc")) {//Toxic Codes
         let args = message.mentions.channels.first();
             if(!args) message.channel.send("** منشن روم . ❌**").then(m => { //Toxic Codes   
