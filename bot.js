@@ -371,36 +371,3 @@ if(!g.me.voiceChannel) c.join();
 console.log("Failed To Join:\n The Channel Type isn't \"text\"");
 }//Toxic Codes
 });
-client.login(process.env.BOT_TOKEN);
-
-client.on("ready", async  => {
-  setInterval(function(){
-  client.channels.find('id', '492319765444952064').setName("W");
-  client.channels.find('id', '492319765444952064').setName("We");
-  client.channels.find('id', '492319765444952064').setName("Wel");
-  client.channels.find('id', '492319765444952064').setName("Welc");
-  client.channels.find('id', '492319765444952064').setName("Welco");
-  client.channels.find('id', '492319765444952064').setName("Welcom");
-  client.channels.find('id', '492319765444952064').setName("Welcome");
-  client.channels.find('id', '492319765444952064').setName("Welcome T");
-  client.channels.find('id', '492319765444952064').setName("Welcome To");
-  client.channels.find('id', '492319765444952064').setName("Welcome To F");
-  client.channels.find('id', '492319765444952064').setName("Welcome To Fo");
-  client.channels.find('id', '492319765444952064').setName("Welcome To Fam");
-  client.channels.find('id', '492319765444952064').setName("Welcome To Family");
-  client.channels.find('id', '492319765444952064').setName("Welcome To Family R");
-  client.channels.find('id', '492319765444952064').setName("Welcome To Family Ro");
-  client.channels.find('id', '492319765444952064').setName("Welcome To Family Roy");
-  client.channels.find('id', '492319765444952064').setName("Welcome To Family Roya");
-  client.channels.find('id', '492319765444952064').setName("Welcome To Family Royal");
-  client.channels.find('id', '492319765444952064').setName("Welcome To Family Royal K");
-  client.channels.find('id', '492319765444952064').setName("Welcome To Family Royal Ki");
-  client.channels.find('id', '492319765444952064').setName("Welcome To Family Royal Kin");
-  client.channels.find('id', '492319765444952064').setName("Welcome To Family Royal King");
-  client.channels.find('id', '492319765444952064').setName("Welcome To Family Royal .");
-  client.channels.find('id', '492319765444952064').setName("Welcome To Family Royal ..");
-  client.channels.find('id', '492319765444952064').setName("Welcome To Family Royal ...");
-  client.channels.find('id', '492319765444952064').setName("Welcome To Family Royal ...!");
- 
-    }, 4000);
-  });
