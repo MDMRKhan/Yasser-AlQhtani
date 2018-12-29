@@ -371,3 +371,4 @@ if(!g.me.voiceChannel) c.join();
 console.log("Failed To Join:\n The Channel Type isn't \"text\"");
 }//Toxic Codes
 });
+client.login(process.env.BOT_TOKEN);
